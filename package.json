@@ -1,0 +1,16 @@
+{
+  "name": "airbnb-scrape",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "puppeteer": "^20.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
